@@ -7,7 +7,11 @@ Then train a supervised classifier to classify the training dataset created corr
 Pipeline used :
 
 Python for data wrangling, label extraction from filenames
+
 MATLAB for feature extraction (as it is least time consuming and good for signal procecssing)
+
 Weka for classification, feature slection, mapping, model training, iterating with various ML algorithms
+
 Excel or Google Sheets for result visualization, data manipulation
+
 Facets for feature space visualization
