@@ -1,0 +1,147 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 4 -G -R
+Relation:     Features_with_labels_All_windows.tsv.csv - Features_with_labels_All_windows.tsv.csv-weka.filters.unsupervised.attribute.Remove-R2-3
+Instances:    530
+Attributes:   16
+              Equpment
+              F1
+              F2
+              F3
+              F4
+              F5
+              F6
+              F7
+              F8
+              F9
+              F10
+              F11
+              F12
+              F13
+              F14
+              F15
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.8746167848571353
+    Node 2    -10.986256931931011
+    Node 3    -14.317666146857032
+    Node 4    8.87795260456302
+    Node 5    10.36021461043818
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.8746155524426552
+    Node 2    10.98623406737459
+    Node 3    14.317639143484106
+    Node 4    -8.877935559144683
+    Node 5    -10.360194548324737
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.8413648144491421
+    Attrib F1    1.2044848831949382
+    Attrib F2    -1.9218926966884708
+    Attrib F3    -0.460456645646447
+    Attrib F4    -0.6520849345168668
+    Attrib F5    1.5826748829229733
+    Attrib F6    2.8224959066884687
+    Attrib F7    -2.8671014424452146
+    Attrib F8    7.4141941153914335
+    Attrib F9    4.874800038429693
+    Attrib F10    -6.783082719086083
+    Attrib F11    4.9406526892912375
+    Attrib F12    -4.210414850095258
+    Attrib F13    8.510566426377448
+    Attrib F14    4.033564340573637
+    Attrib F15    1.8408191023507288
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.13087612541028676
+    Attrib F1    2.5435137988854724
+    Attrib F2    2.7229547073083213
+    Attrib F3    3.6957811744782196
+    Attrib F4    2.815521064478484
+    Attrib F5    0.7734676290469289
+    Attrib F6    0.7023625805577374
+    Attrib F7    9.437830478334408
+    Attrib F8    7.313118373664815
+    Attrib F9    0.6078339562324243
+    Attrib F10    -8.655549842213702
+    Attrib F11    1.0662897136746519
+    Attrib F12    -4.069876931627321
+    Attrib F13    -3.122954451155163
+    Attrib F14    -6.084281556059733
+    Attrib F15    7.17247398135263
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.873350462225779
+    Attrib F1    -0.19212948834706947
+    Attrib F2    -8.806983370863797
+    Attrib F3    -1.1214068391093315
+    Attrib F4    -1.2418916615835194
+    Attrib F5    -0.21747044718722558
+    Attrib F6    5.7973196746815505
+    Attrib F7    -6.17342664019331
+    Attrib F8    -2.858400650346184
+    Attrib F9    -8.469457709369665
+    Attrib F10    8.835928042559228
+    Attrib F11    -1.4423840247544812
+    Attrib F12    17.194446888553497
+    Attrib F13    2.086177315868944
+    Attrib F14    -1.5060740533079613
+    Attrib F15    1.9660560314673374
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -3.744589830184962
+    Attrib F1    0.9334169210818476
+    Attrib F2    -0.35204490559444424
+    Attrib F3    -2.11626280487471
+    Attrib F4    -1.6625978035608917
+    Attrib F5    5.658814206493591
+    Attrib F6    4.799550348898993
+    Attrib F7    7.47811907730066
+    Attrib F8    3.7118433316639003
+    Attrib F9    -4.853340717190128
+    Attrib F10    6.658845370741623
+    Attrib F11    5.6152197322644515
+    Attrib F12    -8.789756578322825
+    Attrib F13    -8.957324941480625
+    Attrib F14    -5.247788016678408
+    Attrib F15    0.30752362472028466
+Class n
+    Input
+    Node 0
+Class o
+    Input
+    Node 1
+
+
+Time taken to build model: 2.74 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         479               90.3774 %
+Incorrectly Classified Instances        51                9.6226 %
+Kappa statistic                          0.8075
+Mean absolute error                      0.1001
+Root mean squared error                  0.2812
+Relative absolute error                 20.0186 %
+Root relative squared error             56.2359 %
+Total Number of Instances              530     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.901    0.094    0.905      0.901    0.903      0.808    0.956     0.958     n
+                 0.906    0.099    0.903      0.906    0.905      0.808    0.956     0.927     o
+Weighted Avg.    0.904    0.096    0.904      0.904    0.904      0.808    0.956     0.942     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 237  26 |   a = n
+  25 242 |   b = o
+
