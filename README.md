@@ -1,4 +1,4 @@
-# Classification and analysis of time series data classifiers based on deep nueral network models
+# Classification and analysis of time series data classifiers based on deep neural network models
 
 Given a raw dataset of x,y,z accelerometer data in 10 second windows with various classes labelled against each instance of database,
 one needed to extract relevant features from the raw dataset and convert it into useful information .
